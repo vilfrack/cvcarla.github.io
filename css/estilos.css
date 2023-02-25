@@ -1,0 +1,189 @@
+
+body{    
+  font-family: 'Times New Roman', Times, serif;  
+  margin: 0;
+  padding: 0;
+} 
+
+h1{
+  text-align: center;
+  margin-top: 50px;   
+}
+
+h5{
+  text-align: center;
+  margin-top: 12px;   
+  font-size: 20px;
+}
+
+header{   
+  background-image: url("../img/img-fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  box-shadow: 0 8px 8px 0 rgb(102 102 102 / 25%);
+}   
+
+#logo{  
+  margin-top: 20px;
+  border-radius: 42%;
+  text-align:left;  
+  margin-left: 26px;  
+}
+
+/*Estilo del contenedor(Menu)*/
+.flex-container{
+  display: flex;
+  height: 1px;
+  justify-content: center;
+  align-items:center;
+  list-style: none;    
+  margin-left: 50px;  
+}
+
+/*Estilo de las opciones del contenedor del Menu*/
+.flex-container > li {
+  width: 50px;
+  margin: 7px;
+  text-align: center;
+  line-height: 5px;
+  font-size: 12px;  
+}
+ 
+section{  
+  margin: 48px 10px 10px 5px ;
+  text-align: justify;    
+  padding-left: 10px;
+} 
+
+aside {   
+  margin-left: 0px; 
+  margin-top: 0px;       
+  float: left;  
+  border: 1px;
+  border-right-style: solid;  
+  border-radius: 15px;
+  border-color: gainsboro;
+  height: 828px;
+  width: 190px;
+  text-align: center;   
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;  
+}
+
+aside > ul{
+  list-style: none;
+  display: block;  
+}
+
+footer{   
+  text-align: center;
+  background-image: url("../img/img-fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;     
+  height: 90px;
+  padding-top: 10px;
+} 
+
+.container{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/***************Dropdown*(Menú desplegable)**************/
+.dropdown {     
+  position: relative;
+  display: inline-block;
+}
+  
+.dropdown .dropbtn {
+  font-size: 12px;  
+  border: none;
+  outline: none;  
+}
+/*Estilo del dropdown*/  
+.dropdown-content {
+  display: none;
+  background-color: rgb(230, 185, 193);
+  position: absolute;    
+  min-width: 100px;     
+  line-height: 10px;
+  margin-top: 5px;
+  border-style: solid;  
+  border-radius: 10px;
+  border-color: gainsboro;
+  padding-left: 5px;
+}
+  
+/*Estilo de las opciones del contenedor del dropdown*/
+.dropdown-content li{      
+  padding: 5px;
+  display: block;
+  text-align: left;  
+  list-style: none;  
+}   
+
+.dropdown ul{
+  padding: 0;
+  margin-top: 5px;
+}
+
+.show {
+  display: block;
+}
+
+/*Estilo del Modal*/
+#modalsdi, #modallourtec {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;  
+}
+
+aside ul {    
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 8px;
+  text-decoration: double;
+}
+
+button{
+  margin: 4px;
+  border: none;  
+  background-color: rgb(230, 185, 193);
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 8px;
+  border-style: solid;  
+  border-radius: 10px;
+  border-color: gainsboro;
+  width: 140px;
+  height: 30px;
+}
+
+progress{
+  width: 80px;
+  height: 15px;
+  text-align: right;  
+  margin-left: 10px;
+  vertical-align: middle;   
+}
+
+#listprogess>td {
+  list-style: none;
+  text-align: left;
+  font-size: 11px;    
+}
+
+td{  
+  text-align: left;
+  padding-bottom: 15px;
+  }
+
+
+
