@@ -17,7 +17,7 @@ h5{
 }
 
 header{   
-  background-image: url("../img/img-fondo.jpg");
+  background-image: url("/img/img-fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat; 
   box-shadow: 0 8px 8px 0 rgb(102 102 102 / 25%);
